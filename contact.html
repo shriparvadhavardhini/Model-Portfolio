@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Pooja | Bookings</title>
+<meta name="description" content="Book Pooja for editorial, fashion, beauty or campaign work. Send a booking inquiry directly by email." />
+<meta property="og:title" content="Contact — Pooja" />
+<meta property="og:description" content="Book Pooja for editorial, fashion, beauty or campaign work." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="images/profile/hero.jpg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="veil" aria-hidden="true"><span>Pooja</span></div>
+
+<header class="site-header">
+  <a href="index.html" class="brand">Pooja</a>
+  <nav class="nav-links">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="portfolio.html" class="nav-link">Portfolio</a>
+    <a href="contact.html" class="nav-link is-active">Contact</a>
+  </nav>
+  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-panel">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<main>
+
+  <section class="contact-hero container" data-veil-reveal>
+    <span class="eyebrow">Bookings &amp; Inquiries</span>
+    <h1 class="mt-lg">Let's work together</h1>
+    <p>For editorial, fashion, beauty or campaign bookings, send the details below. The form opens your email application — nothing is stored or submitted to a server.</p>
+  </section>
+
+  <section class="section-tight">
+    <div class="container contact-layout">
+
+      <form id="booking-form" data-reveal novalidate>
+        <div class="field">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required autocomplete="name" />
+        </div>
+        <div class="field">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required autocomplete="email" />
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel" />
+        </div>
+        <div class="field">
+          <label for="company">Company / Brand</label>
+          <input type="text" id="company" name="company" />
+        </div>
+        <div class="field">
+          <label for="project">Project Type</label>
+          <select id="project" name="project">
+            <option value="">Select one</option>
+            <option value="Editorial">Editorial</option>
+            <option value="Fashion Campaign">Fashion Campaign</option>
+            <option value="Beauty Campaign">Beauty Campaign</option>
+            <option value="Runway">Runway</option>
+            <option value="Lookbook">Lookbook</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="date">Preferred Date</label>
+          <input type="date" id="date" name="date" />
+        </div>
+        <div class="field">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <button type="submit" class="button-solid button mt-lg">Send Inquiry</button>
+        <p class="form-status" role="status"></p>
+      </form>
+
+      <div class="contact-info" data-reveal>
+        <div class="contact-info-block">
+          <span class="label">Email</span>
+          <a class="value" href="mailto:booking@Poojamercer.com">booking@Poojamercer.com</a>
+        </div>
+        <div class="contact-info-block">
+          <span class="label">Phone</span>
+          <a class="value" href="tel:+12125550143">+1 212 555 0143</a>
+        </div>
+        <div class="contact-info-block">
+          <span class="label">Instagram</span>
+          <a class="value" href="https://instagram.com" target="_blank" rel="noopener">@Poojamercer</a>
+        </div>
+        <div class="contact-info-block">
+          <span class="label">Location</span>
+          <span class="value">Coimbatore</span>
+        </div>
+        <div class="rule mt-lg"></div>
+        <p style="color: var(--ink-soft); font-size:.92rem;">Response time is typically within two business days. For time-sensitive bookings, please call or email directly.</p>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <h2 class="footer-name">Pooja</h2>
+      <ul class="footer-links">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="mailto:booking@Poojamercer.com">Email</a></li>
+        <li><a href="tel:+12125550143">+1 212 555 0143</a></li>
+        <li><a href="contact.html">Book Now</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Pooja. All rights reserved.</span>
+      <span>Coimbatore</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
